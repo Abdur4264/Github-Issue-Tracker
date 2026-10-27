@@ -1,0 +1,77 @@
+.tab-btn {
+    border-color: transparent;
+    color: #6B7280;
+}
+
+.tab-btn:hover {
+    border-color: #A855F7;
+    color: #374151;
+}
+
+.tab-btn.active {
+    border-color: #7C3AED;
+    color: #7C3AED;
+}
+
+.issue-card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.issue-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.issue-card.open {
+    border-top: 4px solid #10B981;
+}
+
+.issue-card.closed {
+    border-top: 4px solid #8B5CF6;
+}
+
+.label-tag {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.375rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    background-color: #F3F4F6;
+    color: #374151;
+}
+
+.priority-high {
+    background-color: #FEE2E2;
+    color: #DC2626;
+}
+
+.priority-medium {
+    background-color: #FEF3C7;
+    color: #D97706;
+}
+
+.priority-low {
+    background-color: #D1FAE5;
+    color: #059669;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.status-open {
+    color: #10B981;
+    font-weight: 600;
+}
+
+.status-closed {
+    color: #8B5CF6;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    #searchInput {
+        width: 100%;
+    }
+}
