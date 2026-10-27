@@ -9,19 +9,19 @@
   </head>
 
   <body class="min-h-screen touch-manipulation bg-[#f8fafc] font-['Geist',ui-sans-serif,system-ui,sans-serif] text-[#1f2937]">
-    <main class="flex min-h-screen items-center justify-center px-4 py-10 sm:py-[60px]">
+    <main class="flex min-h-screen items-center justify-center px-4 py-10 sm:py-25">
       <section
-        class="flex w-full max-w-[520px] flex-col items-center gap-6 rounded-[8px] border border-white bg-white p-6 shadow-[0_5px_10px_rgba(0,0,0,0.08)] sm:p-8"
+        class="flex w-full max-w-130 flex-col items-center gap-6 rounded-lg border border-white bg-white p-6 shadow-[0_5px_10px_rgba(0,0,0,0.08)] sm:p-8"
         aria-labelledby="login-title"
       >
         <header class="flex w-full flex-col items-center gap-6">
-          <div class="flex size-[100px] items-center justify-center">
+          <div class="flex size-25 items-center justify-center">
             <img
               src="assets/logo github.svg"
               alt=""
               width="100"
               height="98"
-              class="block h-auto w-[100px]"
+              class="block h-auto w-25"
             />
           </div>
           <div class="flex w-full flex-col items-center gap-1 text-center">
@@ -46,7 +46,7 @@
                   autocapitalize="none"
                   placeholder="Enter Username"
                   aria-describedby="username-hint username-error"
-                  class="h-12 w-full rounded-[8px] border border-[#e4e4e7] bg-white px-4 text-[16px] leading-4 text-[#1f2937] placeholder:text-[#64748b] aria-invalid:border-[#ef4444] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#4a00ff]"
+                  class="h-12 w-full rounded-lg border border-[#e4e4e7] bg-white px-4 text-[16px] leading-4 text-[#1f2937] placeholder:text-[#64748b] aria-invalid:border-[#ef4444] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#4a00ff]"
                 />
                 <p id="username-hint" class="text-[14px] text-[#4a00ff]">Default: admin</p>
                 <p id="username-error" class="hidden text-[14px] text-[#dc2626]"></p>
@@ -63,7 +63,7 @@
                   autocomplete="current-password"
                   placeholder="Enter Password"
                   aria-describedby="password-hint password-error"
-                  class="h-12 w-full rounded-[8px] border border-[#e4e4e7] bg-white px-4 text-[16px] leading-4 text-[#1f2937] placeholder:text-[#64748b] aria-invalid:border-[#ef4444] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#4a00ff]"
+                  class="h-12 w-full rounded-lg border border-[#e4e4e7] bg-white px-4 text-[16px] leading-4 text-[#1f2937] placeholder:text-[#64748b] aria-invalid:border-[#ef4444] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#4a00ff]"
                 />
                 <p id="password-hint" class="text-[14px] text-[#4a00ff]">Default: admin123</p>
                 <p id="password-error" class="hidden text-[14px] text-[#dc2626]"></p>
@@ -73,13 +73,13 @@
 
           <p
             id="login-error"
-            class="hidden rounded-[8px] border border-[#fecaca] bg-[#feecec] px-4 py-3 text-[14px] text-[#b91c1c]"
+            class="hidden rounded-lg border border-[#fecaca] bg-[#feecec] px-4 py-3 text-[14px] text-[#b91c1c]"
             role="alert"
           ></p>
 
           <button
             type="submit"
-            class="h-12 w-full cursor-pointer rounded-[8px] bg-[#4a00ff] px-4 text-[16px] leading-4 font-semibold text-white transition-colors hover:bg-[#3d00d6] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#4a00ff]"
+            class="h-12 w-full cursor-pointer rounded-lg bg-[#4a00ff] px-4 text-[16px] leading-4 font-semibold text-white transition-colors hover:bg-[#3d00d6] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#4a00ff]"
           >
             Sign In
           </button>
@@ -93,7 +93,7 @@
 
         <section class="flex w-full flex-col items-center gap-2" aria-labelledby="demo-title">
           <h2 id="demo-title" class="text-[14px] font-normal text-[#64748b]">Demo Credentials:</h2>
-          <div class="flex w-full items-center justify-center rounded-[8px] bg-[#f8fafc] p-6">
+          <div class="flex w-full items-center justify-center rounded-lg bg-[#f8fafc] p-6">
             <p class="text-center text-[16px] text-[#1f2937]">
               <span class="font-semibold">Username:</span> admin<br />
               <span class="font-semibold">Password:</span> admin123
